@@ -13,3 +13,7 @@ class Hash
     
   end
 end
+
+
+#############
+animals = 
