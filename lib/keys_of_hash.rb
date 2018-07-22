@@ -1,8 +1,14 @@
 class Hash
   def keys_of(*value)
     
-   
-    self.keys
+   animal_keys = [  ]
+  
+   self.each do |animal, location|
+     if location == value
+       animal_keys.push(animal)
+    end  
+  end   
+    
     
     
     
@@ -11,6 +17,7 @@ class Hash
     
     
   end
+  animal_keys
 end
 
 
