@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*value)
     
-   value.each do 
+   value.each do |argument|
     
    animal_keys = [  ]
    #puts value
@@ -17,7 +17,7 @@ class Hash
        animal_keys.push(animal)
     end  
   end   
-    
+ end
     
     
     
