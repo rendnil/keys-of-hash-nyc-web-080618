@@ -5,7 +5,7 @@ class Hash
    value.each do |argument|
     
    
-   #puts value
+   puts value
    self.each do |animal, location|
      #puts animal
      #puts location.class
