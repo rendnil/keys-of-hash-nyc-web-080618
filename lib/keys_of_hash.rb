@@ -15,9 +15,8 @@ class Hash
     
     
     
-    
+  animal_keys  
   end
-  animal_keys
 end
 
 
