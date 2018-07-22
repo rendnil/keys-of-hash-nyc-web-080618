@@ -2,12 +2,12 @@ class Hash
   def keys_of(*value)
     
    animal_keys = [  ]
-  
+   puts value
    self.each do |animal, location|
      puts animal
      puts location
      puts value
-     puts if location == value
+     if location == value
        puts animal
        puts location
        animal_keys.push(animal)
