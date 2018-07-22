@@ -5,8 +5,8 @@ class Hash
    puts value
    self.each do |animal, location|
      #puts animal
-     #puts location.class
-     #puts value.class
+     puts location.class
+     puts value.class
      #puts location == value.join()
      if location == value.join()
        #puts animal
