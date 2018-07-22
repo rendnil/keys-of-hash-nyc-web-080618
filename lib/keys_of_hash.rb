@@ -4,6 +4,8 @@ class Hash
    animal_keys = [  ]
   
    self.each do |animal, location|
+     puts animal
+     puts location
      if location == value
        puts animal
        puts location
