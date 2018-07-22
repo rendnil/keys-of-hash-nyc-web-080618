@@ -7,7 +7,7 @@ class Hash
      puts animal
      puts location
      puts value
-     if location == value
+     puts if location == value
        puts animal
        puts location
        animal_keys.push(animal)
