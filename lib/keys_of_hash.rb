@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*value)
     
-    
+    structure = Hash
     structure.key(value)
     
     
