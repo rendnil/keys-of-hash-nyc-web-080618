@@ -2,7 +2,7 @@ class Hash
   def keys_of(*value)
     
    
-    self
+    self.key(value)
     
     
     
