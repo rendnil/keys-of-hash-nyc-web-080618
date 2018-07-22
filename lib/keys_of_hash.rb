@@ -8,7 +8,7 @@ class Hash
      #puts location.class
      #puts value.class
      #puts location == value.join()
-     if location == value.to_s()
+     if location == value.join()
        #puts animal
        #puts location
        animal_keys.push(animal)
