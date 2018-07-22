@@ -7,7 +7,7 @@ class Hash
      #puts animal
      puts location.class
      puts value.class
-     puts location == value.split()
+     puts location == value.join()
      if location == value
        puts animal
        puts location
