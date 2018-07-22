@@ -2,7 +2,7 @@ class Hash
   def keys_of(*value)
     
    animal_keys = [  ]
-   #puts value
+   puts value
    self.each do |animal, location|
      #puts animal
      #puts location.class
