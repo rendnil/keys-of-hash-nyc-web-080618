@@ -1,9 +1,10 @@
 class Hash
   def keys_of(*value)
-    
+  
+  animal_keys = [  ]  
    value.each do |argument|
     
-   animal_keys = [  ]
+   
    #puts value
    self.each do |animal, location|
      #puts animal
