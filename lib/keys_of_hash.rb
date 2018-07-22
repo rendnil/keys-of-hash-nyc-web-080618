@@ -6,6 +6,7 @@ class Hash
    self.each do |animal, location|
      puts animal
      puts location
+     puts value
      if location == value
        puts animal
        puts location
