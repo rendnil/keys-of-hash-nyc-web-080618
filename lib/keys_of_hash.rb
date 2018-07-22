@@ -2,12 +2,12 @@ class Hash
   def keys_of(*value)
     
    animal_keys = [  ]
-   puts value
+   #puts value
    self.each do |animal, location|
      #puts animal
-     puts location.class
-     puts value.class
-     puts value.join().class
+     #puts location.class
+     #puts value.class
+     #puts value.join().class
      #puts location == value.join()
      if location.to_s == value.join()
        #puts animal
