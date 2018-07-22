@@ -7,9 +7,9 @@ class Hash
    
    puts argument
    self.each do |animal, location|
-    # puts animal
-     #puts location.class
-     #puts value.class
+    puts animal
+     puts location
+     puts value
      #puts value.join().class
      #puts location == value.join()
      if location.to_s == argument.to_s
