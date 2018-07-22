@@ -5,6 +5,8 @@ class Hash
   
    self.each do |animal, location|
      if location == value
+       puts animal
+       puts location
        animal_keys.push(animal)
     end  
   end   
