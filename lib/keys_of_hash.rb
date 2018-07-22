@@ -5,9 +5,9 @@ class Hash
    value.each do |argument|
     
    
-   puts argument
+   #puts argument
    self.each do |animal, location|
-    puts animal
+    #puts animal
      #puts location.class
      #puts argument.class
      #puts value.join().class
