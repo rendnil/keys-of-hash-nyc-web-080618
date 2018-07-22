@@ -1,6 +1,8 @@
 class Hash
   def keys_of(*value)
     
+   value.each do 
+    
    animal_keys = [  ]
    #puts value
    self.each do |animal, location|
