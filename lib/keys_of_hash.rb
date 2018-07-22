@@ -35,7 +35,7 @@ end
 
 #############
 animals =  {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tortoise"=>"Panama","kangaroo"=> "Australia","tomato frog"=>"Madagascar","koala"=>"Australia"} 
-prints animals.keys_of("Australia", "Panama")
+print animals.keys_of("Australia", "Panama")
 
 
 #result = {a: 1, b: 2, c: 3, d: 1}
