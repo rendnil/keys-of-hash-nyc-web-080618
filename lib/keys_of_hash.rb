@@ -27,7 +27,7 @@ class Hash
     
     
     
-  
+  animal_keys
   end
 end
 
