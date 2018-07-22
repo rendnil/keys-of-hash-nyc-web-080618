@@ -33,4 +33,4 @@ end
 #puts animals.key("Australia")
 
 result = {a: 1, b: 2, c: 3, d: 1}
-puts result.keys_of(3)
+puts result.keys_of(1)
