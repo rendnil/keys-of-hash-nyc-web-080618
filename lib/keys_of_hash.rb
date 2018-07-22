@@ -21,7 +21,7 @@ class Hash
     
     
     
-  print animal_keys  
+  animal_keys  
   end
 end
 
