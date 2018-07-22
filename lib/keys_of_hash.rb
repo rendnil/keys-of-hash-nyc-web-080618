@@ -16,6 +16,7 @@ class Hash
        #puts animal
        #puts location
        animal_keys.push(animal)
+       puts animal_keys
     end  
   end   
  
