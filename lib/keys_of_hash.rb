@@ -1,8 +1,8 @@
 class Hash
-  def keys_of(*hash)
+  def keys_of(*value)
     
     
-    hash
+    hash.key()
     
     
     
