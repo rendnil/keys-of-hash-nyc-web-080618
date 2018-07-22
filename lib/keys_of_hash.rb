@@ -17,6 +17,8 @@ class Hash
        animal_keys.push(animal)
     end  
   end   
+ 
+ animal_keys  
  end
     
     
@@ -24,7 +26,7 @@ class Hash
     
     
     
-  animal_keys  
+  
   end
 end
 
